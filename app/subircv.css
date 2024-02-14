@@ -1,0 +1,134 @@
+body {
+            font-family: Cambria, Helvetica, sans-serif;
+           margin: 0;
+            padding: 0;
+        }
+
+header {
+    background-image: url('images/header.jpg');
+    background-size: cover; 
+    background-position: center; /* Centra la imagen en el encabezado */
+    background-repeat: no-repeat; 
+    color: white; 
+    padding: 1em;
+    text-align: center;
+}
+        nav {
+            background-color:#c333 ;
+           display: flex;
+justify-content:space-between;
+            padding: 1em;
+border: 0px solid #333;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); 
+}
+
+
+       nav a {
+            margin-right: 1em;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+
+} 
+
+     .subir-archivo form {
+            max-width: 400px;
+            margin: 80px auto;
+            padding: 20px;
+/*            border: 5px solid #ccc; */
+            border-radius: 1px;
+         background-color: #f9f9f9;
+          display: grid;
+           gap: 16px;
+            grid-template-columns: 1fr 2fr;
+
+
+        }
+
+ .formulario-subir label {
+           display: block;
+           margin-bottom: 10px;
+            font-weight: bold;
+             text-align: right;   
+     }
+
+       .formulario-subir  input {
+/*            width: 100%;*/
+            padding: 12px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+position: center;
+        }
+
+  .formulario-subir button {
+            padding: 10px;
+           padding: 10px;  
+          background-color: #333;
+            color: white;
+            border: none;
+            border-radius: 1px;
+            cursor: pointer;
+              left: 200px;
+            position: relative;   
+transform: translateY(-10%);
+ text-align: center; 
+     }
+
+ .formulario-subir button:hover {
+            background-color: #555;
+
+       }
+    
+
+.oportunidad-trabajo {
+            margin-top: 20px;
+margin: 0 30px;
+
+}
+
+
+        .oportunidad-trabajo a {
+            text-decoration: none;
+/*            color: #0066cc; */
+margin: 0 30px;
+        }
+   .titulo-oportunidades {
+ font-size: 28px; /* Tama      o de fuente para el h2 espec      fico */
+  color: #008080; /* Color del texto del h2 espec      fico */
+  text-align: center; /* Alineaci      n del texto */
+margin-top:50px;
+}
+.oportunidad-trabajo h3 {
+/*  color: #333; */
+}
+
+.oportunidad-trabajo p {
+/*  color: #666; */
+  margin-left: 200px; /* Ajusta el margen izquierdo seg      n sea necesario */
+}
+
+        .busqueda-empleo {
+            background: transparent; /* Establece un fondo transparente */
+            border: none; /* Elimina los bordes del formulario */
+margin-left: auto;
+display: flex;
+      }
+        .busqueda-empleo form {
+            background: transparent; /* Establece un fondo transparente */
+            border: none; /* Elimina los bordes del formulario */
+margin-left: auto;
+/* max-width: 300px */
+        }
+
+        .busqueda-empleo label, .busqueda-empleo input, .busqueda-empleo butto>
+            margin: 50;
+        }
+
+
+        .busqueda-empleo input {
+            padding: 5px; 
+        }
+
+
+
+

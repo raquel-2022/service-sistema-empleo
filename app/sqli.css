@@ -1,0 +1,88 @@
+body{
+    font-family: Cambria, Helvetica, sans-serif;
+    }
+/*        header {
+           background-color:#74a7d4 ;
+            color:#000000;
+            padding:0.5em;
+            text-align: left;
+           display: flex;
+            justify-content: space-between;
+            align-items: center;
+         margin: 0 4px;
+        }*/
+
+/*     nav {
+        background-color:transparent;
+            padding: 1em;
+            text-align: right; 
+        }*/
+
+#main-container{
+
+    width: 800px;
+    margin: 0 auto;
+}
+#mostrar-todo-container{
+    background-color: #eee;
+    padding: 10px;
+    width: 780px;
+    margin: 0 auto;
+}
+
+#nuevo-pendiente-container{
+
+margin-top:150px;
+    background-color: #eee;
+    padding: 15px;
+}
+
+#nuevo-pendiente-container input[type=text]{
+    padding: 10px;
+    width: 632px;
+}
+
+input[type=submit]{
+    padding: 10px;
+    border: 0;
+    border-radius: 3px;
+    background-color: dodgerblue;
+    color: white;
+}
+
+.pendiente{
+    padding: 10px;
+    border-bottom: solid 2px #eee;
+}
+
+.pendiente .texto{
+    display: inline-block;
+    width: 674px;
+    padding-left: 15px;
+}
+
+.pendiente .form_actualizar{
+    display: inline-block;
+    vertical-align: middle;
+}
+.pendiente .form_eliminar{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+input[type=checkbox]
+{
+    display: inline-block;
+  -ms-transform: scale(2); 
+  -moz-transform: scale(2); 
+  -webkit-transform: scale(2); 
+  -o-transform: scale(2); 
+}
+
+.deshabilitado{
+    color: #aaa;
+}
+
+
+
+

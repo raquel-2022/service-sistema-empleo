@@ -1,0 +1,54 @@
+body {
+/*        overflow: hidden; hace que sea firme el pie de pgina*/
+        margin: 0; /* Elimina el margen predeterminado del cuerpo */
+        padding:0; /* Elimina el relleno predeterminado del cuerpo */    
+}
+
+   #background-image, #background-image-2 {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* Ajusta la imagen para cubrir todo el fondo */
+/*         opacity: 0; Inicialmente oculta las im      genes de fondo */
+/*         opacity: 0; Inicialmente oculta las im      genes de fondo */
+        transition: opacity 0.5s ease-in-out;
+   }
+    section {
+    text-align: center; 
+    padding: 100px; /* Agrega un espacio alrededor del contenido */
+    position: relative; 
+    z-index: 1;
+    min-height: 10vh;
+    
+}
+    h2 {
+/*        color: #333; /* Cambia el color del texto si es necesario */
+        margin-bottom: 50px;
+    }
+
+    div.explora {
+        margin-bottom: 120px; /* Agrega espacio debajo de los p      rrafos */
+        font-size: 25px;
+        text-align: center;
+        margin-left: 120px; /* Ajusta el espacio a la izquierda */
+        margin-right:120px;
+
+    }
+
+   .custom-w {
+       cursor: pointer;
+        display: inline-block; 
+        padding: 10px 20px; /* Agrega relleno alrededor del enlace */
+        background-color: #333; /* Cambia el color de fondo del enlace */
+        color: white; /* Cambia el color del texto del enlace */
+        text-decoration: none; /* Elimina el subrayado del enlace */
+        border-radius: 5px; /* Agrega esquinas redondeadas al enlace */
+    }
+   .hidden {
+        display: none; /* Oculta el carrusel de im      genes inicialmente */
+    }
+
+
